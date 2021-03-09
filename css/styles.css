@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/*!
-* Builduing website and web application 
-* Since 2016
-* My Github ()
-*/
+
 
 :root {
   --blue: #007bff;
@@ -42,15 +38,13 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.logo{
-  color: white;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -86,28 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-
-.zone{
-  cursor: pointer;
-  text-align: center;
-  font-size: 2em;
-  border-radius: 10px;
-  border:1px solid #bbb;
-  transition: all 0.3s linear;
-  background: white;
-  max-width: 100px;
-  margin-bottom:2px;
-}
-.green{
-  background-color: green;
-}
-.green{
-  background-color: pink;
-}
-.green{
-  background-color: purple;
 }
 
 abbr[title],
@@ -10097,7 +10069,7 @@ img::-moz-selection {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
   color: #fff;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   background-color: #fed136;
   border: 0;
 }
@@ -10167,10 +10139,6 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
-
-.logo{
-  filter: brightness(0.5) sepia(1) hue-rotate(0deg) saturate(5);
-}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10219,7 +10187,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(91, 192, 222, 0.9); 
+  background: rgba(91, 192, 222, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
